@@ -7,6 +7,8 @@
         <meta name="author" content="" />
         <title>Wisteria Homepage</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+
       
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -27,26 +29,116 @@
                 </div>
             </div>
         </nav>
+
+
+
         <!-- Header-->
-        <header class="bg-dark bg-gradient text-white">
+        <header
+            class=" text-black ">
             <div class="container px-4 text-center">
-                <h1 class="fw-bolder">Welcome to Wisteria</h1>
-                <p class="lead">Music is the wine that fills the cup of silence.</p>
-                
+
             </div>
+
+<head>
+<style>
+h1 {text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold ;
+}
+
+h2  {text-align: center;
+    font-size: 20px ;
+    font-style: italic;
+    font-weight: bold ;
+
+}
+    
+
+
+</style>
+</head>
+<body>
+<h1>Welcome to Wisteria</h1>
+<h2>-where music is the wine that fills the cup of silence.</h2>
+</html>
+<style type="text/css">
+    header{ background-image: url('images/piiic_header.jpg');
+    background-repeat: no-repeat; background-size:  100% 100%;}
+
+
+
+    body{ background-image: url('images/pic.png') ;
+        background-repeat: no-repeat; background-size:  100% 100%;
+     }
+
+</style>
+   
+</body>
+
+
+
         </header>
         <!-- About section-->
         <section id="songs">
-            <div class="container px-4 ">
+            <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-12 text-center">
-                        <h2 class="text-primary">Song Title here</h2>
-                        <p class="lead">display the Composer here</p>
-                        <p>display the lyrics/chords here</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column" style="background-color:#8c49a6;">
+    <h3>Song Lists</h3>
+    <p>Leaving on a Jet Plane</p>
+    <p>Close To You</p>
+    <p>Put Your Head On My Shoulder</p>
+    <p>Fly Me To The Moon</p>
+    <p>Build Me Up Buttercup</p>
+  </div>
+  <div class="column" style="background-color:#7454b4;">
+    <h3>Composer</h3>
+    <p>John Denver</p>
+    <p>Hal David</p>
+    <p>Paul Anka</p>
+    <p>Bart Howard</p>
+    <p>Mike d'Abo and Tony Macaulay</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+        <?php 
+        echo "<br/>";
+
+         ?>
 
         <footer class="py-3 bg-danger">
             <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; 2022. add your fullname here</p></div>
