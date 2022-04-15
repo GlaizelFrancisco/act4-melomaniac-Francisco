@@ -13,6 +13,8 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <a href="Homepage.php">
+            <img src="images/homeicon.png" width="50" height="50"></a>
             <div class="container px-4">
                 <a class="navbar-brand" href="#page-top"> PinkLass </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -96,7 +98,23 @@ h4 { font-size: 15px;
 
                         echo "<h3 class='text-dark'>Fly Me To The Moon</h3>";
                         echo "<p class='lead '>Bart Howard</p>";
+                        ?>
 
+                        <br>
+                        <html>
+                        <body>
+                            <audio controls>
+                                <source src= "audio/Fly Me To The Moon.mp3" type="audio/mpeg">
+                            </audio>
+                        </body>
+                        </html>
+                        <br>
+                        <br>
+                        <br>
+
+
+
+                        <?php
                         echo "<p><pre></p>";
                         echo "<h4><pre>Am *          Dm           G              C</h4>";
                         echo "<p>Fly me to the moon, let me play among the stars,</p>";
