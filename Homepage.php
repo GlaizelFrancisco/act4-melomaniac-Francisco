@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Wisteria Homepage</title>
+        <title>PinkLass Homepage</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
 
@@ -14,9 +14,9 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top" id="mainNav">
             <div class="container px-4">
-                <a class="navbar-brand" href="#page-top"> Wisteria </a>
+                <a class="navbar-brand" href="#page-top"> PinkLass </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
@@ -34,7 +34,7 @@
 
         <!-- Header-->
         <header
-            class=" text-black ">
+            class=" text-muted ">
             <div class="container px-4 text-center">
 
             </div>
@@ -59,16 +59,13 @@ h2  {text-align: center;
 </style>
 </head>
 <body>
-<h1>Welcome to Wisteria</h1>
+<h1>Welcome to PinkLass</h1>
 <h2>-where music is the wine that fills the cup of silence.</h2>
 </html>
 <style type="text/css">
-    header{ background-image: url('images/piiic_header.jpg');
+    header{ background-image: url('images/Homepage.gif');
     background-repeat: no-repeat; background-size:  100% 100%;}
-
-
-
-    body{ background-image: url('images/pic.png') ;
+    body{ background-image: url('images/bodypic.jpg') ;
         background-repeat: no-repeat; background-size:  100% 100%;
      }
 
@@ -101,11 +98,11 @@ h2  {text-align: center;
   display: flex;
 }
 
-/* Create two equal columns that sits next to each other */
+
 .column {
   flex: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px; 
 }
 </style>
 </head>
@@ -113,7 +110,7 @@ h2  {text-align: center;
 
 
 <div class="row">
-  <div class="column" style="background-color:#8c49a6;">
+  <div class="column" style="background-color:#FB97AE;">
     <h3>Song Lists</h3>
     <p>Leaving on a Jet Plane</p>
     <p>Close To You</p>
@@ -121,7 +118,7 @@ h2  {text-align: center;
     <p>Fly Me To The Moon</p>
     <p>Build Me Up Buttercup</p>
   </div>
-  <div class="column" style="background-color:#7454b4;">
+  <div class="column" style="background-color:#FBC1C1;">
     <h3>Composer</h3>
     <p>John Denver</p>
     <p>Hal David</p>
@@ -137,11 +134,15 @@ h2  {text-align: center;
 
         <?php 
         echo "<br/>";
+        echo "<br/>";
+        echo "<br/>";
+        echo "<br/>";
+        echo "<br/>";
 
          ?>
 
         <footer class="py-3 bg-danger">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; 2022. add your fullname here</p></div>
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; 2022. Glaizel R. Francisco</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="js/bootstrap.bundle.min.js"></script>
