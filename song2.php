@@ -13,6 +13,8 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <a href="Homepage.php">
+            <img src="images/homeicon.png" width="50" height="50"></a>
             <div class="container px-4">
                 <a class="navbar-brand" href="#page-top"> PinkLass </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -96,7 +98,22 @@ h4 { font-size: 15px;
 
                         echo "<h3 class='text-dark'>Close To You</h3>";
                         echo "<p class='lead '>Hal David</p>";
+                        ?>
 
+                        <br>
+                        <html>
+                        <body>
+                            <audio controls>
+                                <source src= "audio/Close To You.mp3" type="audio/mpeg">
+                            </audio>
+                        </body>
+                        </html>
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <?php
                         echo "<p><pre></p>";
                         echo "<h4><pre>C             Cadd9 *                    B7</h4>";
                         echo "<p>Why do birds suddenly appear</p>";
