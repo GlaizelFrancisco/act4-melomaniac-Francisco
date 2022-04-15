@@ -13,6 +13,8 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <a href="Homepage.php">
+            <img src="images/homeicon.png" width="50" height="50"></a>
             <div class="container px-4">
                 <a class="navbar-brand" href="#page-top"> PinkLass </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -94,10 +96,26 @@ h4 { font-size: 15px;
                         
                         <?php
 
-                        echo "<h3 class='text-dark'>Put your head on my Shoulder</h3>";
+                        echo "<h3 class='text-dark'>Put Your Head on my Shoulder</h3>";
                         echo "<p class='lead '>Paul Anka</p>";
+                        ?>
 
-                        
+                        <br>
+                        <html>
+                        <body>
+                            <audio controls>
+                                <source src= "audio/Put Your Head On My Shoulder.mp3" type="audio/mpeg">
+                            </audio>
+                        </body>
+                        </html>
+                        <br>
+                        <br>
+                        <br>
+
+
+
+
+                        <?php
                         echo "<p>[Intro] </p>";
                         echo "<h><pre>G  Em  Am  D7(b9)</h>";
                         echo "<h><pre>G  C  G</h>";
