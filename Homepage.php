@@ -20,11 +20,12 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link text-light" href="#">Song 1</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">Song 2</a></li>
-                        <li class="nav-item"><a class="nav-link text-light" href="#">Song 3</a></li>
-                         <li class="nav-item"><a class="nav-link text-light" href="#">Song 4</a></li>
-                          <li class="nav-item"><a class="nav-link text-light" href="#">Song 5</a></li>
+
+                        <li class="nav-item"><a class="nav-link text-light" class="btn btn-primary rounded submit p-3 px-5" href="Song1.php">Song 1</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" class="btn btn-primary rounded submit p-3 px-5" href="Song2.php">Song 2</a></li>
+                        <li class="nav-item"><a class="nav-link text-light" class="btn btn-primary rounded submit p-3 px-5"  href="Song3.php">Song 3</a></li>
+                         <li class="nav-item"><a class="nav-link text-light" class="btn btn-primary rounded submit p-3 px-5"  href="Song4.php">Song 4</a></li>
+                          <li class="nav-item"><a class="nav-link text-light" class="btn btn-primary rounded submit p-3 px-5"  href="Song5.php">Song 5</a></li>
                     </ul>
                 </div>
             </div>
@@ -113,7 +114,7 @@ h2  {text-align: center;
   <div class="column" style="background-color:#FB97AE;">
     <h3>Song Lists</h3>
     <p>Leaving on a Jet Plane</p>
-    <p>Close To You</p>
+    <p >Close To You</p>
     <p>Put Your Head On My Shoulder</p>
     <p>Fly Me To The Moon</p>
     <p>Build Me Up Buttercup</p>

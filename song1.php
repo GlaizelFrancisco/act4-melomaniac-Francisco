@@ -13,6 +13,8 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <a href="Homepage.php">
+            <img src="images/homeicon.png" width="50" height="50"></a>
             <div class="container px-4">
                 <a class="navbar-brand" href="#page-top"> PinkLass </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -85,18 +87,35 @@ h4 { font-size: 15px;
 </body>
 
 
+
+
+
         </header>
         <!-- About section-->
         <section id="songs">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-12 text-center">
-                        
-                        <?php
 
+ 
+                        <?php
                         echo "<h3 class='text-dark'>Leaving on a Jet Plane</h3>";
                         echo "<p class='lead '>John Denver</p>";
+                        ?>
 
+                        <br>
+                        <html>
+                        <body>
+                            <audio controls>
+                                <source src= "audio/LeavingOnAJetPlane.mp3" type="audio/mpeg">
+                            </audio>
+                        </body>
+                        </html>
+                        <br>
+                        <br>
+                        <br>
+                        
+                        <?php
                         echo "<h><pre>D</h>";
                         echo "<p>[Intro] </p>";
                         echo "<p>[Verse 1]</p>";
@@ -191,6 +210,9 @@ h4 { font-size: 15px;
                         echo "<br/>";
                         echo "<br/>";
                         ?>
+
+                        
+
 
 
                     </div>
